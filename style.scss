@@ -3,9 +3,10 @@
 	box-sizing: border-box;
 }
 
-nav {
+header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	li {
 		list-style-type: none;
 		display: inline-block;
