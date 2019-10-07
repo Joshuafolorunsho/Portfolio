@@ -2,13 +2,14 @@
   margin: 0;
   box-sizing: border-box; }
 
-nav {
+header {
   display: flex;
-  justify-content: space-between; }
-  nav li {
+  justify-content: space-between;
+  align-items: center; }
+  header li {
     list-style-type: none;
     display: inline-block; }
-  nav a {
+  header a {
     text-decoration: none;
     color: #000; }
 
