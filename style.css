@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: space-between; }
+  nav li {
+    list-style-type: none;
+    display: inline-block; }
+  nav a {
+    text-decoration: none;
+    color: #000; }
+
+/*# sourceMappingURL=style.css.map */
