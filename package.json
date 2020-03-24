@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Joshuafolorunsho/Portfolio/issues"
   },
-  "homepage": "https://github.com/Joshuafolorunsho/Portfolio#readme"
+  "homepage": "https://github.com/Joshuafolorunsho/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
