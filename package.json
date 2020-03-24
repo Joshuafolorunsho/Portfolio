@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Joshuafolorunsho/Portfolio#readme",
   "devDependencies": {
     "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }
