@@ -3,13 +3,14 @@
 	height: 100vh;
 
 	.header {
-		flex-basis: 30%;
+		width: 20%;
+		max-width: 250px;
 		background-color: #333;
-		height: 100vh;
+      height: 100vh;
+      position: fixed;
 	}
 
 	.main {
-		flex-basis: 70%;
 		height: 100vh;
 		overflow: scroll;
 	}

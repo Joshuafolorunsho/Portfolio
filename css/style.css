@@ -9,10 +9,11 @@
   display: flex;
   height: 100vh; }
   .container .header {
-    flex-basis: 30%;
+    width: 20%;
+    max-width: 250px;
     background-color: #333;
-    height: 100vh; }
+    height: 100vh;
+    position: fixed; }
   .container .main {
-    flex-basis: 70%;
     height: 100vh;
     overflow: scroll; }
