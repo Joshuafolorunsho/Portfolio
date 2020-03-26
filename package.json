@@ -4,19 +4,7 @@
   "description": "Joshua portfolio website",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "compile:sass": "node-sass sass/main.scss css/style.css"
-=======
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
->>>>>>> parent of 1b436df... removed sass
-=======
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
->>>>>>> parent of 1b436df... removed sass
-=======
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
->>>>>>> parent of 1b436df... removed sass
   },
   "repository": {
     "type": "git",
