@@ -7,6 +7,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 html {
   font-size: 62.5%; 
 }
@@ -58,6 +59,8 @@ html {
     overflow: scroll; }
 >>>>>>> parent of f3f8448...  desktop view all okay
 =======
+=======
+>>>>>>> parent of 1b436df... removed sass
 .container {
   display: flex;
   height: 100vh; }
@@ -69,4 +72,7 @@ html {
   .container .main {
     height: 100vh;
     overflow: scroll; }
+<<<<<<< HEAD
+>>>>>>> parent of 1b436df... removed sass
+=======
 >>>>>>> parent of 1b436df... removed sass
