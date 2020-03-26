@@ -3,6 +3,7 @@
 	height: 100vh;
 
 	.header {
+<<<<<<< HEAD
 		flex-basis: 30%;
 		background-color: #333;
 		height: 100vh;
@@ -10,6 +11,15 @@
 
 	.main {
 		flex-basis: 70%;
+=======
+		width: 300px;
+		background-color: #333;
+      height: 100vh;
+      position: relative;
+	}
+
+	.main {
+>>>>>>> parent of 1b436df... removed sass
 		height: 100vh;
 		overflow: scroll;
 	}

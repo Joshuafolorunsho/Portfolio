@@ -6,6 +6,7 @@
   box-sizing: border-box; 
 }
 
+<<<<<<< HEAD
 html {
   font-size: 62.5%; 
 }
@@ -56,3 +57,16 @@ html {
     height: 100vh;
     overflow: scroll; }
 >>>>>>> parent of f3f8448...  desktop view all okay
+=======
+.container {
+  display: flex;
+  height: 100vh; }
+  .container .header {
+    width: 300px;
+    background-color: #333;
+    height: 100vh;
+    position: relative; }
+  .container .main {
+    height: 100vh;
+    overflow: scroll; }
+>>>>>>> parent of 1b436df... removed sass
