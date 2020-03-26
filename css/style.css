@@ -1,3 +1,11 @@
+/* TODO: IMPORT FONT */
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #333;
+  --white: #F2F2F2;
+}
+
 *,
 *::before,
 *::after {
@@ -18,7 +26,7 @@ html {
 }
 
 .hamburger > div {
-    background-color: #fff;
+    background-color: var(--white);
     width: 3.5rem;
     height: 0.3rem;
     margin-bottom: 0.5rem;
@@ -34,8 +42,9 @@ ul li {
 }
 ul li a{
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   font-size: 1.8rem;
+  /* TO DO: -> FONT WEIGHT  */
 }
 .social-icon ul{
   display: flex;
@@ -44,21 +53,42 @@ ul li a{
 
 .social-icon li {
   border-radius: 50%;
-  background-color: #fff;
-  width: 4rem;
-  margin: 6rem 1rem;
-  height: 4rem;
+  background-color: var(--white);
+  width: 3.2rem;
+  margin: 5rem 1rem;
+  height: 3.2rem;
 }
 
 .header {
-  background-color: #333;
+  background-color: var(--primary-color);
   width: 100%;
   height: 5vh; 
 }
 
 .big-nav {
   display: none;
+  text-align: center;
+  color: var(--white);
 }
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container > img {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 17rem;
+  height: 15.6rem;
+  border: 3px solid var(--white);
+}
+
+.big-nav > h1 {
+  margin-bottom: 5rem;
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -76,31 +106,7 @@ ul li a{
   
   .big-nav {
     display: block;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
   }
-
-  .img-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .img-container > img {
-    margin-top: 8rem;
-    margin-bottom: 2rem;
-    border-radius: 50%;
-    width: 17rem;
-    height: 15.6rem;
-    border: 3px solid #fff;
-  }
-
-  .big-nav > h1 {
-    margin-bottom: 6rem;
-  }
-
-  
-
  
 
   main {
