@@ -1,8 +1,8 @@
 /* TODO: IMPORT FONT */
 
 :root {
-  --primary-color: #333;
-  --secondary-color: #333;
+  --primary-color: #1E1C1C;
+  --secondary-color: #FFEE00;
   --white: #F2F2F2;
 }
 
@@ -36,6 +36,10 @@ body {
     border-radius: 0.2rem; 
 }
 
+.name{
+  font-size: 2.2rem;
+}
+
 ul{
   list-style: none;
 }
@@ -46,8 +50,7 @@ ul li {
 ul li a{
   text-decoration: none;
   color: var(--white);
-  font-size: 1.8rem;
-  /* TO DO: -> FONT WEIGHT  */
+  font-size: 2.2rem;
 }
 .social-icon ul{
   display: flex;
@@ -57,6 +60,7 @@ ul li a{
 .social-icon li {
   border-radius: 50%;
   background-color: var(--white);
+  color: var(--primary-color);
   width: 3.2rem;
   margin: 5rem 1rem;
   height: 3.2rem;
@@ -109,6 +113,10 @@ ul li a{
   
   .big-nav {
     display: block;
+  }
+
+  ul li a:hover{
+    color: 
   }
  
 
