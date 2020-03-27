@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #1E1C1C;
-  --secondary-color: #FFEE00;
+  --secondary-color: #86504D;
   --white: #F2F2F2;
 }
 
@@ -104,6 +104,9 @@ ul li a{
   margin-bottom: 5rem;
 }
 
+.social-icon{
+  opacity: 0.6;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -124,7 +127,7 @@ ul li a{
   }
 
   ul li a:hover{
-    color: 
+    color: var(--secondary-color);
   }
  
 
