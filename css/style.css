@@ -1,0 +1,137 @@
+/* TODO: IMPORT FONT */
+
+:root {
+  --primary-color: #1E1C1C;
+  --secondary-color: #86504D;
+  --white: #F2F2F2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.hamburger {
+  position: absolute;
+  right: 4rem; 
+}
+
+.hamburger > div {
+    background-color: var(--white);
+    width: 3.5rem;
+    height: 0.3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.2rem; 
+}
+
+.name{
+  font-size: 2.2rem;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li {
+  padding: 1rem 0;
+}
+ul li a{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 2rem;
+}
+.social-icon ul{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon li {
+  border-radius: 50%;
+  background-color: var(--white);
+  color: var(--primary-color);
+  width: 3rem;
+  margin: 5rem 1rem;
+  height: 3rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon a{
+  text-decoration: none;
+}
+
+.header {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 5vh; 
+}
+
+.big-nav {
+  display: none;
+  text-align: center;
+  color: var(--white);
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container > img {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 17rem;
+  height: 15.6rem;
+  border: 3px solid var(--white);
+}
+
+.big-nav > h1 {
+  margin-bottom: 5rem;
+}
+
+.social-icon{
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .container .header {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    padding: 20px;
+  }
+  
+  .container .header .hamburger {
+    display: none; 
+  }
+  
+  .big-nav {
+    display: block;
+  }
+
+  ul li a:hover{
+    color: var(--secondary-color);
+  }
+ 
+
+  main {
+      margin-left: 300px;
+    } 
+}
