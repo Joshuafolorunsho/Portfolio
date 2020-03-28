@@ -1,8 +1,8 @@
 /* TODO: IMPORT FONT */
 
 :root {
-  --primary-color: #273747;
-  --secondary-color: #86504D;
+  --primary-color: hsl(210, 29%, 22%);
+  --secondary-color: rgb(226, 191, 31);
   --white: #F2F2F2;
 }
 
@@ -86,12 +86,12 @@ ul li a{
   color: var(--white);
 }
 
-.img-container {
-  display: flex;
+header .img-container {
+  display: flex; 
   justify-content: center;
 }
 
-.img-container > img {
+header .img-container > img {
   margin-top: 8rem;
   margin-bottom: 2rem;
   border-radius: 50%;
@@ -107,6 +107,81 @@ ul li a{
 .social-icon{
   opacity: 0.6;
 }
+/*Utility classes*/
+
+.center{
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+/* Main section starts from here */
+
+main {
+  font-size: 2.2rem;
+}
+
+/*About section*/
+#about {
+  
+}
+#about .first-part {
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+#about .first-part > .img-container{
+  flex: 1;
+}
+
+.about-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#about .first-part > .text {
+  flex: 2;
+  line-height: 1.7;
+  font-size: 2rem;
+  word-spacing: .6rem;
+  letter-spacing: .5rem;
+}
+
+#about .line {
+  width: 100%;
+  height: .2rem;
+  background-color: rgba(0, 0, 0, .30);
+  box-shadow: .1rem .2rem .6rem black;
+}
+
+
+#about .second-part {
+  display: flex;
+  padding-right: 4rem;
+}
+
+.second-part > p {
+  flex: 1;
+  font-size: 15rem;
+}
+
+.second-part > p > span {
+  color: var(--secondary-color);
+}
+
+.second-part > div {
+  flex: 3;
+  align-self: center;
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -128,10 +203,19 @@ ul li a{
 
   ul li a:hover{
     color: var(--secondary-color);
+    font-weight: 700;
   }
  
 
   main {
       margin-left: 300px;
-    } 
+  } 
+
+  #about .first-part > .text {
+      font-size: 1.5rem;
+  }
+
+  .second-part > p:hover{
+
+  }
 }
