@@ -124,7 +124,7 @@ header .img-container > img {
 /* Main section starts from here */
 
 main {
-  
+  font-size: 2.2rem;
 }
 
 /*About section*/
@@ -146,6 +146,7 @@ main {
   height: auto;
 }
 
+
 #about .first-part > .text {
   flex: 2;
   line-height: 1.7;
@@ -162,7 +163,19 @@ main {
 }
 
 
+#about .second-part {
+  display: flex;
+  padding-right: 4rem;
+}
 
+.second-part > p {
+  flex: 1;
+  font-size: 15rem;
+}
+.second-part > div {
+  flex: 3;
+  align-self: center;
+}
 
 
 @media only screen and (min-width: 768px) {
