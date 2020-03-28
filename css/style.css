@@ -172,6 +172,11 @@ main {
   flex: 1;
   font-size: 15rem;
 }
+
+.second-part > p > span {
+  color: var(--secondary-color);
+}
+
 .second-part > div {
   flex: 3;
   align-self: center;
@@ -208,5 +213,9 @@ main {
 
   #about .first-part > .text {
       font-size: 1.5rem;
+  }
+
+  .second-part > p:hover{
+
   }
 }
