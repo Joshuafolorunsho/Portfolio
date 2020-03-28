@@ -61,9 +61,15 @@ ul li a{
   color: var(--white);
   font-size: 2rem;
 }
-.social-icon ul{
+.social-icon ul {
   display: flex;
   justify-content: center;
+}
+.social-icon ul svg{
+  display: flex;
+  justify-content: center;
+  width: 1.7rem;
+  fill: var(--primary-color);
 }
 
 .social-icon li {
