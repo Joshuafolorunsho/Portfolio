@@ -1,8 +1,8 @@
 /* TODO: IMPORT FONT */
 
 :root {
-  --primary-color: #273747;
-  --secondary-color: #86504D;
+  --primary-color: hsl(210, 29%, 22%);
+  --secondary-color: rgb(226, 191, 33);
   --white: #F2F2F2;
 }
 
@@ -198,6 +198,7 @@ main {
 
   ul li a:hover{
     color: var(--secondary-color);
+    font-weight: 700;
   }
  
 
