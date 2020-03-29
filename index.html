@@ -7,7 +7,6 @@
 		<title>Joshua Folorunsho | Portfolio</title>
 		<link rel="icon" type="image/png" href="./img/favicon.png" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css" />
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161890254-1"></script>
@@ -21,11 +20,11 @@
 
 	</head>
 	<body class="container">
-		<header class="header">
+		<header class="header toggle">
 			<div class="hamburger">
-				<div></div>
-				<div></div>
-				<div></div>
+				<svg>
+					<use xlink:href="./img/sprite.svg#icon-menu"></use>
+				</svg>
 			</div>
 			<div class="big-nav">
 				<div class="img-container">
@@ -41,10 +40,26 @@
 				</ul>
 				<div class="social-icon">
 					<ul>
-						<a target="_blank" href="https://www.github.com/joshuafolorunsho"><li><i class="fa fa-github"></i></li></a>
-						<a target="_blank" href="https://www.twitter.com/joshuafolorunsh"><li><i class="fa fa-twitter"></i></li></a>
-						<a target="_blank" href="https://medium.com/@joshuafolorunsho"><li><i class="fa fa-medium"></i></li></a>
-						<a target="_blank" href="https://www.linkedin.com/in/joshuafolorunsho/"><li><i class="fa fa-linkedin"></i></li></a>
+						<a target="_blank" href="https://www.github.com/joshuafolorunsho"><li>
+							<svg>
+								<use xlink:href="./img/sprite.svg#icon-github"></use>
+							</svg>
+						</li></a>
+						<a target="_blank" href="https://www.twitter.com/joshuafolorunsh"><li>
+							<svg>
+								<use xlink:href="./img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</i></li></a>
+						<a target="_blank" href="https://medium.com/@joshuafolorunsho"><li>
+							<svg>
+								<use xlink:href="./img/sprite.svg#icon-medium"></use>
+							</svg>
+						</li></a>
+						<a target="_blank" href="https://www.linkedin.com/in/joshuafolorunsho/"><li>
+							<svg>
+								<use xlink:href="./img/sprite.svg#icon-linkedin2"></use>
+							</svg>
+						</li></a>
 					</ul>
 				</div>
 			</div>
@@ -56,9 +71,9 @@
 						<img class="about-picture" src="./img/Joshua.JPG" alt="Joshua Folorunsho on shirt">
 					</div>
 					<div class="text">
-						<h2 class="right">
-							I'm Passionate about <br/>
-							Solving Problem <br/>
+						<h2>
+							I'm Passionate about
+							Solving Problem
 							through Development
 						</h2>
 					</div>
