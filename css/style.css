@@ -142,6 +142,9 @@ main {
 	display: none;
 }
 
+.first-part{
+	padding: 1rem;
+}
 
 
 #about .first-part > .text {
@@ -178,6 +181,17 @@ main {
 	align-self: center;
 }
 
+.toggle{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+
+
 @media only screen and (min-width: 768px) {
 	.container .header {
 		width: 300px;
@@ -209,8 +223,7 @@ main {
 	}
 
 	/*About section*/
-#about {
-}
+
 #about .first-part {
 	display: flex;
 	align-items: center;
