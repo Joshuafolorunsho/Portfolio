@@ -181,7 +181,7 @@ main {
 	align-self: center;
 }
 
-.toggle{
+/* .toggle{
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -189,7 +189,7 @@ main {
 	top: 0;
 	left: 0;
 	padding: 20px;
-}
+} */
 
 
 @media only screen and (min-width: 768px) {
