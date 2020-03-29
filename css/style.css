@@ -82,7 +82,11 @@ ul li a {
 .header {
 	background-color: var(--primary-color);
 	width: 100%;
-	height: 40px;
+	height: 8vh;
+}
+
+.header .hamburger{
+	height: 8vh;
 }
 
 .big-nav {
@@ -112,6 +116,8 @@ header .img-container > img {
 .social-icon {
 	opacity: 0.6;
 }
+
+
 /*Utility classes*/
 
 .center {
@@ -132,24 +138,11 @@ main {
 	font-size: 2rem;
 }
 
-/*About section*/
-#about {
-}
-#about .first-part {
-	display: flex;
-	align-items: center;
-	padding-right: 9px;
-}
-
-#about .first-part > .img-container {
-	flex: 1;
-}
-
 .about-picture {
 	display: none;
-	max-width: 100%;
-	height: auto;
 }
+
+
 
 #about .first-part > .text {
 	flex: 2;
@@ -214,6 +207,25 @@ main {
 	.about-picture{
 		display: block;
 	}
+
+	/*About section*/
+#about {
+}
+#about .first-part {
+	display: flex;
+	align-items: center;
+	padding-right: 9px;
+}
+
+#about .first-part > .img-container {
+	flex: 1;
+}
+
+.about-picture {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 
 	#about .first-part > .text {
 		flex: 2;
