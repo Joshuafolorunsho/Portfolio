@@ -53,8 +53,10 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	padding: 20px;
 }
+
+
+
 
 .name {
 	font-size: 2.2rem;
