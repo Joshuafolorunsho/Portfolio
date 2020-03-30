@@ -37,6 +37,7 @@ body {
  .toggle .line-2 {opacity: 0;}
  
  .toggle .line-3 {
+
 	transform: translateY(-10px) rotate(-135deg);
  }
 
