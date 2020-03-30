@@ -22,10 +22,30 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.line-1, .line-2, .line-3 {
+	width: 35px;
+	height: 5px;
+	background-color: var(--white);
+	margin: 3px 0;
+	transition: 0.4s;
+ }
+ 
+ .toggle .line-1 {
+	transform: translateY(12px) rotate(135deg);
+ }
+ 
+ .toggle .line-2 {opacity: 0;}
+ 
+ .toggle .line-3 {
+	transform: translateY(-10px) rotate(-135deg);
+ }
+
 .hamburger {
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding-right: 40px;
 }
 .toggle{
 	width: 100%;
@@ -34,13 +54,6 @@ body {
 	top: 0;
 	left: 0;
 	padding: 20px;
-}
-
-.hamburger > svg {
-	margin: 9px;
-	width: 3rem;
-	height: 2.5rem;
-	fill: var(--white);
 }
 
 .name {
@@ -254,6 +267,5 @@ main {
 		word-spacing: 0.6rem;
 		letter-spacing: 0.5rem;
 	}
-	.second-part > p:hover {
-	}
+
 }
