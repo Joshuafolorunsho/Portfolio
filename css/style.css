@@ -49,6 +49,8 @@ body {
 	padding-right: 40px;
 }
 
+
+
 .name {
 	font-size: 2.2rem;
 }
@@ -108,6 +110,17 @@ ul li a {
 	text-align: center;
 	color: var(--white);
 }
+
+/* Toggle class to  change the state of hambuger icon cross*/
+.toggle{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+} 
+
 
 header .img-container {
 	display: flex;
@@ -195,13 +208,7 @@ main {
 	align-self: center;
 }
 
-.toggle{
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-} 
+
 
 
 @media only screen and (min-width: 768px) {
