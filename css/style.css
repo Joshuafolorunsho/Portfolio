@@ -225,7 +225,7 @@ main {
 	}
 
 	.big-nav {
-		display: block;
+		display: block !important;
 	}
 
 	ul li a:hover {
