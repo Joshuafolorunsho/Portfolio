@@ -72,7 +72,7 @@ ul li a {
 .social-icon ul {
 	display: flex;
 	justify-content: center;
-	height: 8rem;
+	height: 100px;
 }
 .social-icon ul svg {
 	display: flex;
