@@ -127,17 +127,18 @@ header .img-container {
 	justify-content: center;
 }
 
+
 header .img-container > img {
-	margin-top: 5rem;
-	margin-bottom: 2rem;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
 	border-radius: 50%;
-	width: 17rem;
-	height: 15.6rem;
+	width: 14rem;
+	height: 13rem;
 	border: 3px solid var(--white);
 }
 
 .big-nav > h1 {
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 .social-icon {
@@ -224,6 +225,16 @@ main {
 		display: none;
 	}
 
+	header .img-container > img {
+		margin-top: 6rem;
+		margin-bottom: 2rem;
+		width: 17rem;
+		height: 15.6rem;
+	}
+	.big-nav > h1 {
+		margin-bottom: 5rem;
+	}
+	
 	.big-nav {
 		display: block !important;
 	}
@@ -243,21 +254,21 @@ main {
 
 	/*About section*/
 
-#about .first-part {
-	display: flex;
-	align-items: center;
-	padding-right: 9px;
-}
+	#about .first-part {
+		display: flex;
+		align-items: center;
+		padding-right: 9px;
+	}
 
-#about .first-part > .img-container {
-	flex: 1;
-}
+	#about .first-part > .img-container {
+		flex: 1;
+	}
 
-.about-picture {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
+	.about-picture {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
 
 	#about .first-part > .text {
 		flex: 2;
