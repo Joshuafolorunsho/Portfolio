@@ -194,12 +194,20 @@ main {
 	position: relative;
 	z-index: 10;
 }
+#about .info {
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
 #about .info p:nth-child(1){
-	
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
 }
 #about .info p:nth-child(2){
-	
+	font-size: 2.5rem;
 }
 
 
