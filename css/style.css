@@ -78,6 +78,7 @@ ul li a {
 	display: flex;
 	justify-content: center;
 	width: 1.7rem;
+	height: 1.7rem;
 	fill: var(--primary-color);
 }
 
@@ -86,8 +87,8 @@ ul li a {
 	background-color: var(--white);
 	color: var(--primary-color);
 	width: 3rem;
-	margin: 5rem 1rem;
 	height: 3rem;
+	margin: 5rem 1rem 0 1rem;
 	font-size: 1.8rem;
 	display: flex;
 	justify-content: center;
