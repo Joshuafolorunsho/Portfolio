@@ -166,49 +166,6 @@ main {
 	font-size: 2rem;
 }
 
-.about-picture {
-	display: none;
-}
-
-.first-part{
-	padding: 1rem;
-}
-
-
-#about .first-part > .text {
-	flex: 2;
-	line-height: 1.6;
-	font-size: 1.2rem;
-	word-spacing: 0.3rem;
-	letter-spacing: 0.3rem;
-}
-
-#about .line {
-	width: 100%;
-	height: 0.2rem;
-	background-color: rgba(0, 0, 0, 0.3);
-	box-shadow: 0.1rem 0.2rem 0.6rem black;
-}
-
-#about .second-part {
-	display: flex;
-	padding-right: 4rem;
-}
-
-.second-part > p {
-	flex: 1;
-	font-size: 15rem;
-}
-
-.second-part > p > span {
-	color: var(--secondary-color);
-}
-
-.second-part > div {
-	flex: 3;
-	align-self: center;
-}
-
 
 
 
@@ -246,36 +203,6 @@ main {
 
 	main {
 		margin-left: 300px;
-	}
-
-	.about-picture{
-		display: block;
-	}
-
-	/*About section*/
-
-	#about .first-part {
-		display: flex;
-		align-items: center;
-		padding-right: 9px;
-	}
-
-	#about .first-part > .img-container {
-		flex: 1;
-	}
-
-	.about-picture {
-		display: block;
-		max-width: 100%;
-		height: auto;
-	}
-
-	#about .first-part > .text {
-		flex: 2;
-		line-height: 1.7;
-		font-size: 1.5rem;
-		word-spacing: 0.6rem;
-		letter-spacing: 0.5rem;
 	}
 
 }
