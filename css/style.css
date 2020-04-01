@@ -223,14 +223,14 @@ main {
 
 @media only screen and (max-width: 767.9px) {
 	#about .info{
-		background: url('../img/Joshua\ Folorunsho\ small.jpg') center center/cover no-repeat;
+		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover no-repeat;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 
 	#about .info{
-		background: url('../img/Joshua\ Folorunsho\ 1.jpg') center center/cover no-repeat;
+		background: url('../img/Joshua\ Folorunsho\ desktop.jpg') center center/cover no-repeat;
 	}
 
 	.container .header {
