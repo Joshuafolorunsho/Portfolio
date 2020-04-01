@@ -208,6 +208,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #about .info p:nth-child(1){
