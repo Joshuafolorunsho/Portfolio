@@ -67,6 +67,11 @@ ul li a {
 	color: var(--white);
 	font-size: 2rem;
 }
+
+.social-icon {
+	opacity: 0.6;
+}
+
 .social-icon ul {
 	display: flex;
 	justify-content: center;
@@ -143,9 +148,7 @@ header .img-container > img {
 	margin-bottom: 3rem;
 }
 
-.social-icon {
-	opacity: 0.6;
-}
+
 
 
 /*Utility classes*/
