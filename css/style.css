@@ -264,7 +264,6 @@ main {
 
 	ul li a:hover {
 		color: var(--secondary-color);
-		font-weight: 700;
 	}
 
 	main {
