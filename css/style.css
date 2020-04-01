@@ -174,8 +174,8 @@ header .img-container > img {
 
 /* Main section starts from here */
 
-main {
-	font-size: 2rem;
+.info + .text{
+	max-width: 1000px;
 }
 
 #about .info{
@@ -215,6 +215,9 @@ main {
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
+#about .info p:nth-child(1) span{  
+	color: var(--secondary-color);
+}
 #about .info p:nth-child(2){
 	font-size: 2.5rem;
 }
@@ -222,8 +225,18 @@ main {
 #about > .text {
 	display: flex;
 	justify-content: center;
+	margin: auto;
 }
 
+.text > p {
+	line-height: 1.4;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.text > p span {
+	font-weight: 700;
+}
 
 @media only screen and (max-width: 767.9px) {
 	#about .info{
