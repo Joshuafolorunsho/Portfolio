@@ -51,8 +51,6 @@ body {
 	cursor: pointer;
 }
 
-
-
 .name {
 	font-size: 2.2rem;
 }
@@ -164,24 +162,27 @@ header .img-container > img {
 	text-align: left;
 }
 
+.px-small{
+	padding: 1rem 0;
+}
+.p-small{
+	padding: 1rem;
+}
+
 /* Main section starts from here */
 
 main {
 	font-size: 2rem;
 }
 
-#about {
-	background: url('../img/Joshua\ Folorunsho\ 1.jpg');
+#about .info{
 	height: 60vh;
 	width: 100%;
-	background-size:cover;
-	background-position: center center;
-	background-repeat: no-repeat;
 	position: relative;
 	color: #fff;
 }
 
-#about::after {
+#about .info::after {
 	display: block;
 	content: "";
 	width: 100%;
@@ -194,7 +195,7 @@ main {
 	z-index: 1;
 }
 
-#about > * {
+#about > .info * {
 	position: relative;
 	z-index: 10;
 }
@@ -214,9 +215,23 @@ main {
 	font-size: 2.5rem;
 }
 
+#about > .text {
+	display: flex;
+	justify-content: center;
+}
 
+
+@media only screen and (max-width: 767.9px) {
+	#about .info{
+		background: url('../img/Joshua\ Folorunsho\ small.jpg') center center/cover no-repeat;
+	}
+}
 
 @media only screen and (min-width: 768px) {
+
+	#about .info{
+		background: url('../img/Joshua\ Folorunsho\ 1.jpg') center center/cover no-repeat;
+	}
 
 	.container .header {
 		width: 300px;
