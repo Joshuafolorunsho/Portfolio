@@ -229,6 +229,9 @@ main {
 
 @media only screen and (min-width: 768px) {
 
+	html {
+		font-size: 65.625%; /*10.5px*/
+	}
 	#about .info{
 		background: url('../img/Joshua\ Folorunsho\ desktop.jpg') center center/cover no-repeat;
 	}
@@ -273,6 +276,6 @@ main {
 
 @media only screen and (min-width: 1200px) {
 	html {
-		font-size: 68.75%;
+		font-size: 68.75%; /*11px*/
 	}
 }
