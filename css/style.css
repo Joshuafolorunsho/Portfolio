@@ -243,6 +243,19 @@ header .img-container > img {
 	font-weight: 700;
 }
 
+
+#capabilities {
+	height: 100vh;
+}
+#work {
+	height: 100vh;
+}
+#timeline {
+	height: 100vh;
+}
+#contact {
+	height: 100vh;
+}
 @media only screen and (max-width: 767.9px) {
 	#about .info{
 		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover no-repeat;
