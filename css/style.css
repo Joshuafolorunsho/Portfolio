@@ -68,6 +68,10 @@ ul li a {
 	font-size: 2rem;
 }
 
+ul li a.active{
+	color: var(--secondary-color);
+}
+
 .social-icon {
 	opacity: 0.6;
 }
