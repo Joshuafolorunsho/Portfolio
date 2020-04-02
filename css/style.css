@@ -47,7 +47,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-end;
-	padding-right: 40px;
+	padding-right: 2%;
 	cursor: pointer;
 }
 
