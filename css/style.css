@@ -69,7 +69,7 @@ ul li a {
 	font-size: 2rem;
 }
 
-ul li a.active{
+.current{
 	color: var(--secondary-color);
 }
 
