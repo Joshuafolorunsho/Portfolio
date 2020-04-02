@@ -109,8 +109,11 @@ ul li a {
 
 .header {
 	background-color: var(--primary-color);
+	position: sticky;
+	top: 0;
 	width: 100%;
 	height: 8vh;
+	z-index: 1000;
 }
 
 .header .hamburger{
@@ -178,7 +181,6 @@ header .img-container > img {
 }
 
 /* Main section starts from here */
-
 .info + .text{
 	max-width: 1000px;
 }
@@ -244,18 +246,14 @@ header .img-container > img {
 }
 
 
-#capabilities {
-	height: 100vh;
-}
-#work {
-	height: 100vh;
-}
-#timeline {
-	height: 100vh;
-}
+#capabilities,
+#work,
+#timeline,
 #contact {
-	height: 100vh;
+	height: 104vh;
+	text-align: center;
 }
+
 @media only screen and (max-width: 767.9px) {
 	#about .info{
 		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover no-repeat;
