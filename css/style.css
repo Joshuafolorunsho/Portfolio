@@ -262,11 +262,36 @@ header .img-container > img {
 #capabilities,
 #work,
 #timeline,
-#contact {
-	height: 104vh;
+#contact{
+	max-width: 1000px;
+	margin: auto;
+	font-size: 1.4rem;
+}
+
+#capabilities > h2,
+#work > h2,
+#timeline > h2,
+#contact >h2 {
+	text-transform: uppercase;
 	text-align: center;
 }
 
+/***************CAPABILITIES SECTION*****************/
+.card{
+	border: 1px solid rgba(0,0,0,0.3);
+	width: 80%;
+	margin: auto;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.card-body{
+	min-height: 200px;
+}
+
+.card-body > *{
+	line-height: 1.7;
+}
 @media only screen and (max-width: 767.9px) {
 	#about .info{
 		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover no-repeat;
