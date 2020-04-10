@@ -49,19 +49,4 @@ const changingRole = (function(){
       typeSpeed: 65,
       backSpeed: 65
     });
-    
-    
-   // var typed = new Typed('.role', {
-   //    strings: [
-   //       'FRONTEND DEVELOPER',
-   //       'FREELANCER',
-   //       'WORDPRESS DEVELOPER'
-   //    ],
-      // typeSpeed: 60,
-      // backSpeed: 60,
-   //    loop: true
-   //  });
-
-   // var typed = new Typed('.role', options);
-   
 })();
