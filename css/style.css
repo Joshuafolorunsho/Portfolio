@@ -41,7 +41,7 @@ body {
 .line-2,
 .line-3 {
 	width: 35px;
-	height: 5px;
+	height: 4px;
 	background-color: var(--white);
 	margin: 3px 0;
 	transition: 0.4s;
@@ -65,7 +65,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-end;
-	padding-right: 2%;
+	padding-right: 2.5%;
 	cursor: pointer;
 }
 
@@ -232,16 +232,18 @@ header .img-container > img {
 	text-align: center;
 	text-transform: uppercase;
 }
-
-#about .info p:nth-child(1) {
-	font-size: 1.4rem;
-	margin-bottom: 1rem;
-}
-#about .info p:nth-child(1) span {
-	color: var(--secondary-color);
-}
-#about .info div {
+#about h3{
+	font-family: 'Baloo Paaji 2', cursive;
 	font-size: 2.5rem;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+#about .info #typed {
+	font-size: 3rem;
+	font-size: 1.5rem;
+	color: var(--secondary-color);
+	/* padding-top: 1rem; */
 }
 
 #about > .text {
@@ -379,6 +381,11 @@ header .img-container > img {
 
 	#about .info {
 		height: 65vh;
+	}
+
+	#about h3{
+		font-size: 3.2rem;
+		margin-bottom: 10px;
 	}
 }
 
