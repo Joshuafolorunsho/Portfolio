@@ -250,7 +250,7 @@ header .img-container > img {
 
 .text > p {
 	line-height: 1.4;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	text-align: justify;
 }
 
@@ -264,8 +264,8 @@ header .img-container > img {
 #timeline,
 #contact{
 	max-width: 1000px;
-	margin: auto;
-	font-size: 1.4rem;
+	margin: 20px auto;
+	font-size: 1.7rem;
 }
 
 #capabilities > h2,
@@ -274,11 +274,12 @@ header .img-container > img {
 #contact >h2 {
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 /***************CAPABILITIES SECTION*****************/
 .card{
-	border: 1px solid rgba(0,0,0,0.3);
+	border: 1px solid rgba(58, 56, 56, 0.7);
 	width: 80%;
 	margin: auto;
 	border-radius: 5px;
@@ -286,7 +287,7 @@ header .img-container > img {
 }
 
 .card-body{
-	min-height: 200px;
+	
 }
 
 .card-body > *{
