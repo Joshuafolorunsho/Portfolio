@@ -15,7 +15,7 @@
 }
 
 html {
-	font-size: 62.5%;  /*equivalent to 10px */
+	font-size: 62.5%; /*equivalent to 10px */
 	scroll-behavior: smooth;
 }
 
@@ -24,38 +24,41 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 body::-webkit-scrollbar-thumb {
- background-color: darkgrey;
- outline: 1px solid slategrey;
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
 }
-
 
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #F6F5F7;
 }
 
-.line-1, .line-2, .line-3 {
+.line-1,
+.line-2,
+.line-3 {
 	width: 35px;
 	height: 5px;
 	background-color: var(--white);
 	margin: 3px 0;
 	transition: 0.4s;
- }
- 
-/* Toggle class to  change the state of hambuger icon cross*/
- .toggle .line-1 {
-	transform: translateY(12px) rotate(135deg);
- }
- 
- .toggle .line-2 {opacity: 0;}
- 
- .toggle .line-3 {
+}
 
+/* Toggle class to  change the state of hambuger icon cross*/
+.toggle .line-1 {
+	transform: translateY(12px) rotate(135deg);
+}
+
+.toggle .line-2 {
+	opacity: 0;
+}
+
+.toggle .line-3 {
 	transform: translateY(-10px) rotate(-135deg);
- }
+}
 
 .hamburger {
 	display: flex;
@@ -83,7 +86,7 @@ ul li a {
 	font-size: 2rem;
 }
 
-.current{
+.current {
 	color: var(--secondary-color);
 }
 
@@ -130,7 +133,7 @@ ul li a {
 	z-index: 1000;
 }
 
-.header .hamburger{
+.header .hamburger {
 	height: 8vh;
 }
 
@@ -139,7 +142,7 @@ ul li a {
 	color: var(--white);
 }
 
-.toggle{
+.toggle {
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -147,14 +150,12 @@ ul li a {
 	left: 0;
 	background-color: hsl(210, 29%, 22%);
 	z-index: 11;
-} 
-
+}
 
 header .img-container {
 	display: flex;
 	justify-content: center;
 }
-
 
 header .img-container > img {
 	margin-bottom: 1rem;
@@ -168,9 +169,6 @@ header .img-container > img {
 	font-size: 1.6rem;
 	margin-bottom: 3rem;
 }
-
-
-
 
 /*Utility classes*/
 
@@ -186,23 +184,23 @@ header .img-container > img {
 	text-align: left;
 }
 
-.px-small{
+.px-small {
 	padding: 1rem 0;
 }
-.p-small{
+.p-small {
 	padding: 1rem;
 }
 
-.m-small{
+.m-small {
 	margin: 1rem 0;
 }
 
 /* Main section starts from here */
-.info + .text{
-	max-width: 1000px;
+.info + .text {
+	max-width: 1200px;
 }
 
-#about .info{
+#about .info {
 	height: 60vh;
 	width: 100%;
 	position: relative;
@@ -211,14 +209,14 @@ header .img-container > img {
 
 #about .info::after {
 	display: block;
-	content: "";
+	content: '';
 	width: 100%;
 	height: 100%;
-   background-color:  hsla(210, 29%, 22%, 0.6);
+	background-color: hsla(210, 29%, 22%, 0.6);
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: .9;
+	opacity: 0.9;
 	z-index: 1;
 }
 
@@ -235,14 +233,14 @@ header .img-container > img {
 	text-transform: uppercase;
 }
 
-#about .info p:nth-child(1){
+#about .info p:nth-child(1) {
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
-#about .info p:nth-child(1) span{  
+#about .info p:nth-child(1) span {
 	color: var(--secondary-color);
 }
-#about .info p:nth-child(2){
+#about .info p:nth-child(2) {
 	font-size: 2.5rem;
 }
 
@@ -262,11 +260,10 @@ header .img-container > img {
 	font-weight: 700;
 }
 
-
 #capabilities,
 #work,
 #timeline,
-#contact{
+#contact {
 	max-width: 1000px;
 	margin: 20px auto;
 	font-size: 1.5rem;
@@ -275,54 +272,70 @@ header .img-container > img {
 #capabilities > h2,
 #work > h2,
 #timeline > h2,
-#contact >h2 {
+#contact > h2 {
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 10px;
+	letter-spacing: 3px;
 }
 
 /***************CAPABILITIES SECTION*****************/
-.card{
-	border: 1px solid rgba(58, 56, 56, 0.1);
-	box-shadow:3px 3px 6px -2px rgba(58, 56, 56, 0.7);
+.card {
+	background-color: #fff;
 	width: 98%;
 	margin: 1.2rem auto;
 	border-radius: 5px;
 	padding: 1em;
+	transition: all .7s ease;
 }
 
+.card:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
 
-.card-body > *{
+.card:hover .card-body p{
+	color: #fff;
+}
+.card-body > * {
 	line-height: 1.7;
 }
+
+.card h3 {
+	font-family: 'Baloo Paaji 2', cursive;
+}
+.card-body p {
+	color: #979697;
+}
+
 @media only screen and (max-width: 767.9px) {
-	#about .info{
-		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover no-repeat;
+	#about .info {
+		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover
+			no-repeat;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-
 	html {
 		font-size: 65.625%; /*10.5px*/
 	}
 
-	#about .info{
-		background: url('../img/Joshua\ Folorunsho\ desktop.jpg') center center/cover no-repeat;
+	#about .info {
+		background: url('../img/Joshua\ Folorunsho\ desktop.jpg') center center/cover
+			no-repeat;
 	}
 
-	
-	.container .header::-webkit-scrollbar{
+	.container .header::-webkit-scrollbar {
 		width: 1.5em;
 	}
-	.container .header::-webkit-scrollbar-track{
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-		box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	.container .header::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	}
-	.container .header::-webkit-scrollbar-thumb{
+	.container .header::-webkit-scrollbar-thumb {
 		background-color: darkgrey;
 		outline: 1px solid slategrey;
-	}	
+	}
 
 	.container .header {
 		width: 300px;
@@ -345,7 +358,7 @@ header .img-container > img {
 	.big-nav > h1 {
 		margin-bottom: 5rem;
 	}
-	
+
 	.big-nav {
 		display: block !important;
 	}
@@ -357,9 +370,7 @@ header .img-container > img {
 	main {
 		margin-left: 300px;
 	}
-
 }
-
 
 @media only screen and (min-width: 1200px) {
 	html {
@@ -371,12 +382,23 @@ header .img-container > img {
 	}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767.9px), (min-width: 850px){
-	.card-container{
+@media only screen and (min-width: 500px) and (max-width: 767.9px),
+	(min-width: 850px) {
+	.card-container {
 		display: flex;
 	}
 
-	.card{
+	.card {
 		width: 46%;
+	}
+}
+
+@media only screen and (min-width: 1600px){
+	#capabilities > div {
+		display: flex;
+		justify-content: space-between;
+	}	
+	.card {
+		width: 60%;
 	}
 }
