@@ -43,22 +43,25 @@ const scrollEffect = (function() {
 
 
 const changingRole = (function(){
-   // Can also be included with a regular script tag
-   import Typed from 'typed.js';
-
-   var options = {
-      strings: ['hhhh', 'hhhh'],
-      typeSpeed: 40
-   };
-
-
-   var typed = new Typed('.element', options);
-   
-   // var typed2 = new Typed('#typed2', {
-   //    strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
-   //    typeSpeed: 0,
-   //    backSpeed: 0,
-   //    fadeOut: true,
+   var typed = new Typed('#typed', {
+      stringsElement: '#role',
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65
+    });
+    
+    
+   // var typed = new Typed('.role', {
+   //    strings: [
+   //       'FRONTEND DEVELOPER',
+   //       'FREELANCER',
+   //       'WORDPRESS DEVELOPER'
+   //    ],
+      // typeSpeed: 60,
+      // backSpeed: 60,
    //    loop: true
    //  });
+
+   // var typed = new Typed('.role', options);
+   
 })();
