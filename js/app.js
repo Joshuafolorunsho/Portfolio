@@ -40,3 +40,25 @@ const scrollEffect = (function() {
       });
    });
 })();
+
+
+const changingRole = (function(){
+   // Can also be included with a regular script tag
+   import Typed from 'typed.js';
+
+   var options = {
+      strings: ['hhhh', 'hhhh'],
+      typeSpeed: 40
+   };
+
+
+   var typed = new Typed('.element', options);
+   
+   // var typed2 = new Typed('#typed2', {
+   //    strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
+   //    typeSpeed: 0,
+   //    backSpeed: 0,
+   //    fadeOut: true,
+   //    loop: true
+   //  });
+})();
