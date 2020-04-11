@@ -403,9 +403,9 @@ header .img-container > img {
 }
 
 @media only screen and (min-width: 1500px) {
-	html {
-		font-size: 81.25%; /*13px*/
-	}
+	/* html {
+		font-size: 81.25%; /*13px
+	} */
 
 	#capabilities > div{
 		display: flex;
@@ -413,9 +413,9 @@ header .img-container > img {
 }
 
 @media only screen and (min-width: 1700px) {
-	html {
-		font-size: 87.5%; /*14px*/
-	}
+	/* html {
+		font-size: 87.5%; /*14px
+	} */
 
 	.container .header{
 		width: 350px;
