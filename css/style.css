@@ -547,6 +547,10 @@ header .img-container > img {
 		padding: .5em;
 	}
 
+	main {
+		margin-left: 350px;
+	}
+
 
 }
 @media only screen and (min-width: 2100px) {
@@ -557,7 +561,11 @@ header .img-container > img {
 	.container .header{
 		width: 500px;
 	}
-
+	
+	main {
+		margin-left: 500px;
+	}
+	
 	.info + .text,
 	#capabilities,
 	#work,
@@ -570,6 +578,22 @@ header .img-container > img {
 		width:46%;
 		padding: .3em;
 	}
+
+	/*Timeline styling*/
+	.timeline ul li div{
+		width: 637px;
+	}
+
+	/* Left side boxes*/
+	.timeline ul li:nth-child(even) div{
+		left : -662px;
+	}
+
+	.timeline ul li::after{
+		left: -8px;
+	}
+	
+
 }
 
 
