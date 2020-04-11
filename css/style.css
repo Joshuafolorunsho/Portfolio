@@ -413,9 +413,6 @@ header .img-container > img {
 }
 
 @media only screen and (min-width: 1700px) {
-	/* html {
-		font-size: 87.5%; /*14px
-	} */
 
 	.container .header{
 		width: 350px;
