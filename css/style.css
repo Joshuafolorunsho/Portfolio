@@ -331,22 +331,55 @@ header .img-container > img {
 	width: 6px;
 	background-color: var(--primary-color);
 	position: relative;
+	padding-top: 50px;
+}
+
+/* Dots */
+.timeline ul li::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	background-color: var(--secondary-color);
+	width: 16px;
+	height: 16px;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	transition: background .5s ease-in-out;
 }
 
 /*Boxes */
 .timeline ul li div{
 	position: relative;
-	margin-bottom: 20px;
-	width: calc(100vw - 55px);
+	width: calc(100vw - 66px);
 	background-color: var(--primary-color);
-	padding: 20px;
+	padding: 1.3rem;
 	box-shadow: 0 0.2px 40px rgba(0, 0, 0, .15);
 	bottom: 0;
-	left: 20px;
+	left: 30px;
 	line-height: 1.7;
 	transition: all 0.5s ease-in-out;
 }
 
+/* Arrows Base */
+.timeline div:before{
+	content: '';
+	position: absolute;
+	bottom: 5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 16px 8px 8px;
+}
+
+/* Right Side Arrows and Left Side Arrows*/
+.timeline ul li:nth-child(odd) div::before, 
+.timeline ul li:nth-child(even) div::before{
+	border-color: transparent;
+	border-right-color: var(--primary-color);
+	left: -22px;
+
+}
 
 .timeline ul li div > h4{
 	color: var(--secondary-color);
@@ -354,18 +387,6 @@ header .img-container > img {
 }
 .timeline ul li div > p{
 	color: #fff;
-}
-
-.timeline ul li::after{
-	content: '';
-	position: absolute;
-	left: -10px;
-	top: 90px;
-	border-style: solid;
-	width: 0px;
-	height: 0px;
-	border-width: 20px;
-	border-color: transparent var(--primary-color) transparent transparent;
 }
 
 @media only screen and (max-width: 767.9px) {
@@ -459,7 +480,15 @@ header .img-container > img {
 	.timeline ul li:nth-child(even) div{
 		left : -275px;
 	}
-}
+
+	/*Left Side Arrows*/
+	.timeline ul li:nth-child(even) div::before{
+		border-color: transparent;
+		border-left-color: var(--primary-color);
+		right: 22px;
+	}
+	
+
 
 @media only screen and (min-width: 500px) and (max-width: 767.9px),
 	(min-width: 850px) {
@@ -565,7 +594,7 @@ header .img-container > img {
 	main {
 		margin-left: 500px;
 	}
-	
+
 	.info + .text,
 	#capabilities,
 	#work,
@@ -587,10 +616,6 @@ header .img-container > img {
 	/* Left side boxes*/
 	.timeline ul li:nth-child(even) div{
 		left : -662px;
-	}
-
-	.timeline ul li::after{
-		left: -8px;
 	}
 	
 
