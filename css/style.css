@@ -278,7 +278,7 @@ header .img-container > img {
 #contact > h2 {
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 1.5rem;
 	letter-spacing: 3px;
 }
 
@@ -290,12 +290,20 @@ header .img-container > img {
 	margin: 1.2rem auto;
 	border-radius: 5px;
 	padding: 1em;
-	transition: all .7s ease;
+	transition: transform .5s ease;
+}
+.card-title > div {
+	text-align: center;
+}
+.card-title svg{
+	width: 50px;
+	height: 50px;
 }
 
 .card:hover {
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
+	transform: translateY(-1.5rem) scale(1.03);
 }
 
 .card:hover .card-body p{
@@ -421,16 +429,34 @@ header .img-container > img {
 	#work,
 	#timeline,
 	#contact {
-		max-width: 1400px;
+		max-width: 1300px;
+	}
+
+	.card{
+		width:45%;
+		padding: .5em;
 	}
 }
 @media only screen and (min-width: 2100px) {
 	html {
-		font-size: 100%; /*16px*/
+		font-size: 93.75%; /*15px*/
 	}
-
+	
 	.container .header{
 		width: 500px;
+	}
+
+	.info + .text,
+	#capabilities,
+	#work,
+	#timeline,
+	#contact {
+		max-width: 1400px;
+	}
+	
+	.card{
+		width:46%;
+		padding: .3em;
 	}
 }
 
