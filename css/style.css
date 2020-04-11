@@ -57,7 +57,7 @@ body {
 }
 
 .toggle .line-3 {
-	transform: translateY(-10px) rotate(-135deg);
+	transform: translateY(-7.6px) rotate(-135deg);
 }
 
 .hamburger {
@@ -323,6 +323,9 @@ header .img-container > img {
 
 
 /***************TIMELINE SECTION*****************/
+.timeline ul {
+	padding: 20px 0;
+}
 .timeline ul li{
 	width: 6px;
 	background-color: var(--primary-color);
@@ -435,6 +438,9 @@ header .img-container > img {
 	.card {
 		width: 46%;
 	}
+
+
+	/*Timeline styling*/
 }
 
 
