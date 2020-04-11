@@ -285,6 +285,7 @@ header .img-container > img {
 /***************CAPABILITIES SECTION*****************/
 .card {
 	background-color: #fff;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 	width: 98%;
 	margin: 1.2rem auto;
 	border-radius: 5px;
