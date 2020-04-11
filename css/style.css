@@ -266,10 +266,11 @@ header .img-container > img {
 #work,
 #timeline,
 #contact {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 20px auto;
 	font-size: 1.5rem;
 }
+
 
 #capabilities > h2,
 #work > h2,
@@ -374,6 +375,18 @@ header .img-container > img {
 	}
 }
 
+@media only screen and (min-width: 500px) and (max-width: 767.9px),
+	(min-width: 850px) {
+	.card-container {
+		display: flex;
+	}
+
+	.card {
+		width: 46%;
+	}
+}
+
+
 @media only screen and (min-width: 1200px) {
 	html {
 		font-size: 68.75%; /*11px*/
@@ -389,14 +402,41 @@ header .img-container > img {
 	}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767.9px),
-	(min-width: 850px) {
-	.card-container {
-		display: flex;
+@media only screen and (min-width: 1500px) {
+	html {
+		font-size: 81.25%; /*13px*/
 	}
 
-	.card {
-		width: 46%;
+	#capabilities > div{
+		display: flex;
 	}
 }
+
+@media only screen and (min-width: 1700px) {
+	html {
+		font-size: 87.5%; /*14px*/
+	}
+
+	.container .header{
+		width: 350px;
+	}
+
+	.info + .text,
+	#capabilities,
+	#work,
+	#timeline,
+	#contact {
+		max-width: 1400px;
+	}
+}
+@media only screen and (min-width: 2100px) {
+	html {
+		font-size: 100%; /*16px*/
+	}
+
+	.container .header{
+		width: 500px;
+	}
+}
+
 
