@@ -320,6 +320,48 @@ header .img-container > img {
 	color: #575457;
 }
 
+
+
+/***************TIMELINE SECTION*****************/
+.timeline ul li{
+	width: 6px;
+	background-color: var(--primary-color);
+	position: relative;
+}
+
+
+.timeline ul li div{
+	position: relative;
+	margin-bottom: 20px;
+	width: calc(100vw - 90px);
+	background-color: var(--primary-color);
+	padding: 20px;
+	box-shadow: 0 0.2px 10px rgba(0, 0, 0, 0.1);
+	bottom: 0;
+	left: 20px;
+	line-height: 1.8;
+}
+
+.timeline ul li div > h4{
+	color: var(--secondary-color);
+	margin-bottom: 3px;
+}
+.timeline ul li div > p{
+	color: #fff;
+}
+
+.timeline ul li::after{
+	content: '';
+	position: absolute;
+	left: -10px;
+	top: 90px;
+	border-style: solid;
+	width: 0px;
+	height: 0px;
+	border-width: 20px;
+	border-color: transparent var(--primary-color) transparent transparent;
+}
+
 @media only screen and (max-width: 767.9px) {
 	#about .info {
 		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover
