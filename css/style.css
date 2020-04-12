@@ -415,6 +415,9 @@ header .img-container > img {
 }
 
 /***************CONTACT SECTION*****************/
+#timeline {
+	overflow-x: hidden;
+}
 
 #contact .contact{
 	margin-top: 100px;
