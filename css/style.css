@@ -71,6 +71,7 @@ body {
 
 .name {
 	font-size: 2.2rem;
+	margin-bottom: 3rem;
 }
 
 ul {
@@ -165,10 +166,6 @@ header .img-container > img {
 	border: 3px solid var(--white);
 }
 
-.big-nav > h1 {
-	font-size: 1.6rem;
-	margin-bottom: 3rem;
-}
 
 /*Utility classes*/
 
