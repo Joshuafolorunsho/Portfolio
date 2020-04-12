@@ -372,6 +372,10 @@ header .img-container > img {
 	transform: translate(0);
 }
 
+.timeline ul li.show::after{
+	background-color: var(--primary-color);
+}
+
 /* Show left side div*/
 	.timeline ul li.show:nth-child(even) div{
 		transform: translateX(0);
