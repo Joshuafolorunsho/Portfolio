@@ -359,6 +359,8 @@ header .img-container > img {
 	left: 30px;
 	line-height: 1.7;
 	transition: all 0.5s ease-in-out;
+	visibility: hidden;
+	opacity: 0;
 }
 
 /* Arrows Base */
