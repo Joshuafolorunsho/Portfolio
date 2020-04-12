@@ -348,7 +348,7 @@ header .img-container > img {
 	transition: background .5s ease-in-out;
 }
 
-/*Boxes */
+/*Boxes plus hide*/
 .timeline ul li div{
 	position: relative;
 	width: calc(100vw - 66px);
@@ -359,9 +359,24 @@ header .img-container > img {
 	left: 30px;
 	line-height: 1.7;
 	transition: all 0.5s ease-in-out;
-	/* visibility: hidden;
-	opacity: 0; */
+	visibility: hidden;
+	opacity: 0;
+	transform: translateX(200px);
 }
+
+
+/* Show boxes*/
+.timeline ul li.show div{
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0);
+}
+
+/* Show left side div*/
+	.timeline ul li.show:nth-child(even) div{
+		transform: translateX(0);
+}
+
 
 /* Arrows Base */
 .timeline div:before{
@@ -388,7 +403,6 @@ header .img-container > img {
 	border-color: transparent;
 	border-right-color: var(--primary-color);
 	left: -22px;
-
 }
 
 .timeline ul li div > h4{
@@ -480,6 +494,7 @@ header .img-container > img {
 	
 	.timeline ul li div{
 		width: calc(100vw - 400px);
+		transform: translateX(200px);
 	}
 
 }
@@ -489,10 +504,12 @@ header .img-container > img {
 		margin:auto;
 	}
 
+	
 	.timeline ul li div{
 		width: 250px;
 	}
 
+	
 	/* Right side boxes*/
 	.timeline ul li:nth-child(odd) div{
 		left: 30px;
@@ -500,7 +517,9 @@ header .img-container > img {
 	/* Left side boxes*/
 	.timeline ul li:nth-child(even) div{
 		left : -275px;
+		transform: translateX(-200px)
 	}
+
 
 	/*Left Side Arrows*/
 	.timeline ul li:nth-child(even) div::before{
@@ -509,7 +528,6 @@ header .img-container > img {
 		border-left-color: var(--primary-color);
 		right: -22px;
 	}
-
 
 }
 	
@@ -537,7 +555,10 @@ header .img-container > img {
 		.timeline ul li div{
 			width: 255px;
 		}
-	
+		
+		.timeline ul li:nth-child(even) div{
+			transform: translateX(-200px);
+		}
 
 		/* Left side boxes*/
 		.timeline ul li:nth-child(even) div{
