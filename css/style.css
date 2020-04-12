@@ -230,7 +230,6 @@ header .img-container > img {
 	text-transform: uppercase;
 }
 #about h3{
-	font-family: 'Baloo Paaji 2', cursive;
 	font-size: 2.5rem;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
@@ -309,9 +308,6 @@ header .img-container > img {
 	line-height: 1.7;
 }
 
-.card h3 {
-	font-family: 'Baloo Paaji 2', cursive;
-}
 .card-body p {
 	color: #575457;
 }
