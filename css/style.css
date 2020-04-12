@@ -538,10 +538,7 @@ header .img-container > img {
 			width: 255px;
 		}
 	
-		/* Right side boxes*/
-		/* .timeline ul li:nth-child(odd) div{
-			left: 30px;
-		} */
+
 		/* Left side boxes*/
 		.timeline ul li:nth-child(even) div{
 			left : -275px;
