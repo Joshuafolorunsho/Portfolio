@@ -372,9 +372,17 @@ header .img-container > img {
 	border-width: 8px 16px 8px 8px;
 }
 
+@media only screen and (max-width: 600px) {
+	.timeline ul li:nth-child(even) div::before{
+		border-color: transparent;
+		border-right-color: var(--primary-color);
+		left: -22px;
+	}	
+}
+
 /* Right Side Arrows and Left Side Arrows*/
-.timeline ul li:nth-child(odd) div::before, 
-.timeline ul li:nth-child(even) div::before{
+.timeline ul li:nth-child(odd) div::before
+{
 	border-color: transparent;
 	border-right-color: var(--primary-color);
 	left: -22px;
@@ -394,6 +402,16 @@ header .img-container > img {
 		background: url('../img/Joshua\ Folorunsho\ \ mobile.jpg') center center/cover
 			no-repeat;
 	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999.9px){
+
+	.timeline ul li:nth-child(even) div::before{
+		border-color: transparent;
+		border-right-color: var(--primary-color);
+		left: -22px;
+	
+	}	
 }
 
 @media only screen and (min-width: 768px) {
@@ -461,8 +479,9 @@ header .img-container > img {
 	.timeline ul li div{
 		width: calc(100vw - 400px);
 	}
+
 }
-@media only screen and (min-width: 600px) and (max-width: 767.9px){
+@media only screen and (min-width: 600px) and (max-width: 767.9px), (min-width: 1000px){
 	/*Timeline styling*/
 	.timeline ul li{
 		margin:auto;
@@ -484,9 +503,13 @@ header .img-container > img {
 	/*Left Side Arrows*/
 	.timeline ul li:nth-child(even) div::before{
 		border-color: transparent;
+		border-width: 8px 8px 8px 16px;;
 		border-left-color: var(--primary-color);
-		right: 22px;
+		right: -22px;
 	}
+
+
+}
 	
 
 
@@ -535,6 +558,11 @@ header .img-container > img {
 	#about h3{
 		font-size: 3.2rem;
 		margin-bottom: 10px;
+	}
+
+	/*Timeline styling*/
+	.timeline ul li div{
+		width: 253px;
 	}
 
 
@@ -620,5 +648,3 @@ header .img-container > img {
 	
 
 }
-
-
