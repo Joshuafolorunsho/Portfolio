@@ -312,6 +312,55 @@ header .img-container > img {
 	color: #575457;
 }
 
+/***************WORK SECTION*****************/
+
+#work > h2,
+#work{
+	margin-bottom: 4rem;
+}
+.project-text{
+	padding: 2.5rem 3.5rem;
+}
+
+.project{
+	border: 2px solid var(--primary-color);
+}
+
+.project-image > img{
+	max-width: 100%;
+	position: relative;
+	z-index: -1;
+	border-bottom: 2px solid var(--primary-color);
+}
+
+.project-image > img:hover{
+	transform: scale(0.9);
+}
+
+.project-title{
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.project-description{
+	line-height: 1.5;
+}
+
+.project-link{
+	margin: 1rem 0;
+	display: inline-block;
+	text-decoration: none;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 15px 30px;
+	border: 2px solid transparent;
+}
+
+.project-link:hover{
+	background-color: #fff;
+	color: var(--primary-color);
+	border-color: var(--primary-color);
+}
 
 
 /***************TIMELINE SECTION*****************/
@@ -525,6 +574,15 @@ header .img-container > img {
 		margin-left: 300px;
 	}
 
+	/***************WORK SECTION*****************/
+	#work > div{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.project{
+		flex-basis: 48%;
+	}
 
 	/*Timeline styling*/
 	.timeline ul li{
