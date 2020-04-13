@@ -323,7 +323,8 @@ header .img-container > img {
 }
 
 .project{
-	border: 2px solid var(--primary-color);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 2rem rgba(0, 0, 0, 0.15);
 	margin-bottom: 50px;
 }
 
@@ -331,7 +332,7 @@ header .img-container > img {
 	max-width: 100%;
 	position: relative;
 	z-index: -1;
-	border-bottom: 2px solid var(--primary-color);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .project-image > img:hover{
@@ -353,7 +354,7 @@ header .img-container > img {
 	text-decoration: none;
 	background-color: var(--primary-color);
 	color: #fff;
-	padding: 15px 30px;
+	padding: 10px 20px;
 	border: 2px solid transparent;
 }
 
