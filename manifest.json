@@ -1,0 +1,47 @@
+{
+   "name": "Joshua's Portfolio",
+   "short_name": "Josh",
+   "start_url": "/index.html",
+   "display": "standalone",
+   "background_color": "hsl(210, 29%, 22%)",
+   "theme_color": "hsl(210, 50%, 15%)",
+   "orientation": "portrait-primary",
+   "icons": [
+      {
+         "src": "/img/icons/icon-72x72.png",
+         "type": "image/png",
+         "sizes": "72x72"
+      },
+      {
+         "src": "/img/icons/icon-128x128.png",
+         "type": "image/png",
+         "sizes": "128x128"
+      },
+      {
+         "src": "/img/icons/icon-152x152.png",
+         "type": "image/png",
+         "sizes": "152x152"
+      },
+      {
+         "src": "/img/icons/icon-172x172.png",
+         "type": "image/png",
+         "sizes": "172x172"
+      },
+      {
+         "src": "/img/icons/icon-192x192.png",
+         "type": "image/png",
+         "sizes": "192x192"
+      },
+      {
+         "src": "/img/icons/icon-384x384.png",
+         "type": "image/png",
+         "sizes": "384x384"
+      },
+      {
+         "src": "/img/icons/icon-512x512.png",
+         "type": "image/png",
+         "sizes": "512x512"
+      }
+   ]
+
+}
