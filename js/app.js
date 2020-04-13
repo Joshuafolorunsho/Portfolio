@@ -79,3 +79,7 @@ const fadeIn = (function() {
    window.addEventListener('scroll', run);
 
 })();
+
+if ('serviceWorker' in navigator) {
+   console.log('Yes')
+}
