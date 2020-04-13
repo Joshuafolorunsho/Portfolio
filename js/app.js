@@ -81,5 +81,7 @@ const fadeIn = (function() {
 })();
 
 if ('serviceWorker' in navigator) {
-   console.log('Yes')
+   navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log(reg))
+      .catch(err => console.log(err))
 }
