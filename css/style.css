@@ -324,6 +324,7 @@ header .img-container > img {
 
 .project{
 	border: 2px solid var(--primary-color);
+	margin-bottom: 50px;
 }
 
 .project-image > img{
