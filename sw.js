@@ -19,6 +19,7 @@ const assets = [
    'https://www.googletagmanager.com/gtag/js?id=UA-161890254-1',
    '/fallback.html'
 ];
+
 //Install event
 self.addEventListener('install', event => {
    event.waitUntil(
