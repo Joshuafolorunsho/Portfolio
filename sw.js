@@ -55,6 +55,12 @@ self.addEventListener('fetch', event => {
                   return fetchRes;                  
                })
          });
-      }).catch(() => caches.match('/fallback.html'))
+      }).catch(() => {
+         //conditionally return
+         if (event.request.url.indexOf('.html') >  -1) {
+            return caches.match('/fallback.html')
+         }
+      }
+      )
    )
 })
