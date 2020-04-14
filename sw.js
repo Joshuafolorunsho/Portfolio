@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-v1.0.1';
 const dynamicCacheName = 'site-dynamic-v1';
 const assets = [
    '/',
@@ -17,6 +17,7 @@ const assets = [
    'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
    'https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2',
    'https://www.googletagmanager.com/gtag/js?id=UA-161890254-1',
+   '/fallback.html'
 ];
 //Install event
 self.addEventListener('install', event => {
@@ -28,13 +29,12 @@ self.addEventListener('install', event => {
    );
 })
 
-
 //Activate event
 self.addEventListener('activate', event => {
    event.waitUntil( 
       caches.keys().then(keys => {
          return Promise.all(keys
-            .filter(key => key !== staticCacheName)
+            .filter(key => key !== staticCacheName && key !== dynamicCacheName)
             .map(key => caches.delete(key)))
       })
    )
@@ -53,8 +53,7 @@ self.addEventListener('fetch', event => {
                   cache.put(event.request.url, fetchRes.clone());
                   return fetchRes;                  
                })
-         })
-         ;
-      })
+         });
+      }).catch(() => caches.match('/fallback.html'))
    )
 })
