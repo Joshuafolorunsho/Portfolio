@@ -20,6 +20,18 @@ const assets = [
    '/fallback.html'
 ];
 
+
+// cache size limit function
+const limitCacheSize = (name, size) => {
+   caches.open(name).then(cache => {
+      cache.keys().then(keys => {
+         if (keys.length > size) {
+            cache.delete(keys[0]).then(limitCacheSize(name, size));
+         }
+      })
+   })
+}
+
 //Install event
 self.addEventListener('install', event => {
    event.waitUntil(
@@ -52,6 +64,7 @@ self.addEventListener('fetch', event => {
             return caches.open(dynamicCacheName)
                .then(cache => {
                   cache.put(event.request.url, fetchRes.clone());
+                  limitCacheSize(dynamicCacheName, 10);
                   return fetchRes;                  
                })
          });
