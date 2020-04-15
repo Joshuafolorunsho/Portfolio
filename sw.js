@@ -20,7 +20,6 @@ const assets = [
    '/fallback.html'
 ];
 
-
 // cache size limit function
 const limitCacheSize = (name, size) => {
    caches.open(name).then(cache => {
@@ -31,6 +30,8 @@ const limitCacheSize = (name, size) => {
       })
    })
 }
+
+
 
 //Install event
 self.addEventListener('install', event => {
