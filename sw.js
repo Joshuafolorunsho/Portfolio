@@ -32,7 +32,6 @@ const limitCacheSize = (name, size) => {
 }
 
 
-
 //Install event
 self.addEventListener('install', event => {
    event.waitUntil(
@@ -42,6 +41,7 @@ self.addEventListener('install', event => {
          })
    );
 })
+
 
 //Activate event
 self.addEventListener('activate', event => {

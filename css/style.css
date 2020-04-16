@@ -237,7 +237,7 @@ header .img-container > img {
 
 #about .info #typed {
 	font-size: 3rem;
-	font-size: 1.5rem;
+	font-size: 1.54rem;
 	color: var(--secondary-color);
 }
 
@@ -248,8 +248,8 @@ header .img-container > img {
 }
 
 .text > p {
-	line-height: 1.4;
-	font-size: 1.7rem;
+	line-height: 1.5;
+	font-size: 1.8rem;
 	text-align: justify;
 }
 
@@ -263,7 +263,7 @@ header .img-container > img {
 #contact {
 	max-width: 1200px;
 	margin: 20px auto;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 
