@@ -305,7 +305,7 @@ header .img-container > img {
 	margin: 1.2rem auto;
 	border-radius: 5px;
 	padding: 1em;
-	transition: transform .5s ease;
+	transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
 }
 .card-title > div {
 	text-align: center;
@@ -318,7 +318,8 @@ header .img-container > img {
 .card:hover {
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
-	transform: translateY(-1.5rem) scale(1.03);
+	transform: translateY(-1rem) scale(1.02);
+	fill: #fff;
 }
 
 .card:hover .card-body p{
@@ -409,7 +410,7 @@ header .img-container > img {
 	height: 16px;
 	transform: translateX(-50%);
 	border-radius: 50%;
-	transition: background .5s ease-in-out;
+	transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
 }
 
 /*Boxes plus hide*/
