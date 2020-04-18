@@ -305,7 +305,7 @@ header .img-container > img {
 	margin: 1.2rem auto;
 	border-radius: 5px;
 	padding: 1em;
-	transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	transition: all .3s cubic-bezier(0.7, 0.3, 0, 0);
 }
 .card-title > div {
 	text-align: center;
@@ -410,7 +410,7 @@ header .img-container > img {
 	height: 16px;
 	transform: translateX(-50%);
 	border-radius: 50%;
-	transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	transition: all .3s cubic-bezier(0.7, 0.3, 0, 0);
 }
 
 /*Boxes plus hide*/
