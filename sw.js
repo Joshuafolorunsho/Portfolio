@@ -43,6 +43,7 @@ self.addEventListener('install', event => {
 })
 
 
+
 //Activate event
 self.addEventListener('activate', event => {
    event.waitUntil( 
