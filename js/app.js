@@ -17,7 +17,7 @@ const ham =(function() {
 })();
 
 const scrollEffect = (function() {
-   let mainNavLinks = document.querySelectorAll("nav ul li a");
+   let mainNavLinks = document.querySelectorAll("nav ul a");
    let mainSections = document.querySelectorAll("main section");
 
    let lastId;
