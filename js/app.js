@@ -47,7 +47,8 @@ const changingRole = (function(){
       stringsElement: '#role',
       loop: true,
       typeSpeed: 65,
-      backSpeed: 65
+      backSpeed: 65,
+      cursorChar: "|"
     });
 })();
 
@@ -80,8 +81,8 @@ const fadeIn = (function() {
 
 })();
 
-if ('serviceWorker' in navigator) {
-   navigator.serviceWorker.register('/sw.js')
-      .then(reg => {})
-      .catch(err => {})
-}
+// if ('serviceWorker' in navigator) {
+//    navigator.serviceWorker.register('/sw.js')
+//       .then(reg => {})
+//       .catch(err => {})
+// }

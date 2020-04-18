@@ -242,9 +242,23 @@ header .img-container > img {
 }
 
 #about .info #typed {
-	font-size: 3rem;
 	font-size: 1.54rem;
 	color: var(--secondary-color);
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+#typed::after {
+	content: '|';
+	color: #fff;
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typedjs*/
+.typed-cursor{
+	display: none;
 }
 
 #about > .text {
