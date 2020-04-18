@@ -1,6 +1,7 @@
 const staticCacheName = 'site-static-v1.0.5';
 const dynamicCacheName = 'site-dynamic-v1';
 
+
 const assets = [
    '/',
    '/index.html',
@@ -20,6 +21,7 @@ const assets = [
    'https://www.googletagmanager.com/gtag/js?id=UA-161890254-1',
    '/fallback.html'
 ];
+
 
 // cache size limit function
 const limitCacheSize = (name, size) => {
