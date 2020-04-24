@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v1.0.5';
+const staticCacheName = 'site-static-v1.2';
 const dynamicCacheName = 'site-dynamic-v1';
 
 
@@ -15,12 +15,16 @@ const assets = [
    '/img/Joshua Folorunsho mobile.webp',
    '/img/Joshua folorunsho.webp',
    '/img/Joshua Folorunsho 1.webp',
-   '/img/gerrit.webp',
+   '/img/random.png',
+   '/img/todo.png',
    'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
    'https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2',
    'https://www.googletagmanager.com/gtag/js?id=UA-161890254-1',
    '/fallback.html'
 ];
+
+
+
 
 
 
