@@ -2,6 +2,7 @@ const staticCacheName = 'site-static-v1.3';
 const dynamicCacheName = 'site-dynamic-v1';
 
 
+
 const assets = [
    '/',
    '/index.html',
