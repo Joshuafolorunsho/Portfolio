@@ -531,6 +531,14 @@ header .img-container > img {
 		background: url('../img/Joshua\ Folorunsho\ mobile.webp') center center/cover
 			no-repeat;
 	}
+
+	ul li {
+		padding: 1.3rem 0;
+	}
+
+	.social-icon li {
+		margin: 4rem 2rem 0 1rem;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 899.9px){
