@@ -343,6 +343,7 @@ header .img-container > img {
 	padding: 2.5rem 3.5rem;
 }
 
+
 .project{
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	box-shadow: 0 6px 2rem rgba(0, 0, 0, 0.15);
@@ -608,13 +609,11 @@ header .img-container > img {
 	}
 
 	/***************WORK SECTION*****************/
-	#work > div{
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.project{
-		flex-basis: 48%;
+	.projects {
+		padding: 1rem;
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	/*Timeline styling*/
